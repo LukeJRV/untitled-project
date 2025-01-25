@@ -1,0 +1,34 @@
+{
+  "name": "untitled-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/styles.css -o dist/styles.css",
+    "watch:css": "postcss src/styles.css -o dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeJRV/untitled-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LukeJRV/untitled-project/issues"
+  },
+  "homepage": "https://github.com/LukeJRV/untitled-project#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "firebase": "^11.2.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
